@@ -54,8 +54,8 @@ namespace SortTestHelper
     }
 
     //打印数组中所有元素
+    void printArray(T a[], int n)
     template<typename T>
-    void printArray(int a[], int n)
     {
         for(int i = 0; i < n; i++)
             cout << a[i] <<" ";
